@@ -233,8 +233,8 @@ button {
     text-transform: uppercase;
 }
 .titlepage h2 {
-    font-size: 50px;
-    color: #999998;
+    font-size: 30px;
+    color: #6b7908;
     line-height: 50px;
     font-weight: bold;
     display: block;
@@ -323,8 +323,7 @@ button {
 .header-area {
     border-top: #6b7908 solid 15px;
     width: 100%;
-    position: absolute;
-    z-index: 9999;
+    /* position: absolute; */
     height: 85px;
     background: transparent;
     line-height: 68px;
@@ -489,7 +488,7 @@ ul.email li i {
 .willom h1 {
     font-size: 70px;
     line-height: 70px;
-    color: #fff;
+    color: purple;
     font-weight: bold;
     margin: 0 auto;
     text-align: center;
@@ -561,8 +560,9 @@ ul.email li i {
 }
 
 .about .titlepage p {
-    padding-top: 20px;
-    color: #999998;
+    padding-top: 10px;
+    color: #000;
+     font-size: 16px;
 }
 
 .about .read_more {
