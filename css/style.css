@@ -479,7 +479,7 @@ ul.email li i {
 }
 #banner1 .carousel-item img {
     width: 100%; 
-    height: 100vh;
+    height: auto;
 }
 .willom {
     display: flex;
@@ -544,6 +544,81 @@ ul.email li i {
 
 .about_img figure {
     margin: 0;
+    margin-top: 60px;
+}
+.product-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding-bottom: 10px;
+}
+
+/* Desktop */
+.product-card {
+  flex: 0 0 220px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background: #fff;
+}
+
+.product-card img {
+  height: 400px;          /* card ke andar image height */
+  object-fit: cover;
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+  .product-card {
+    flex: 0 0 45%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .product-card {
+    flex: 0 0 80%;
+  }
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.nav-tabs {
+  width: 100%;
+    border-bottom: none;
+
+}
+
+.nav-tabs .nav-item {
+  flex: 1 1 0;
+}
+
+.nav-tabs .nav-link {
+  width: 100%;
+  text-align: center;
+  background-color: #f1f3f5;      /* deselected bg */
+  color: #333;
+  border: 1px solid #dee2e6;
+  border-bottom: none;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #6b7908;      /* selected bg */
+  color: #fff;
+  border-color: #6b7908;
+}
+
+.product-img {
+  width: 100%;
+  height: 160px;          /* fixed card image height */
+  object-fit:contain;     /* image crop ho kar fit hogi */
+  display: block;
 }
 
 
